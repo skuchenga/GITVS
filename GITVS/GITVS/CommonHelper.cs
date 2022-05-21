@@ -28,6 +28,8 @@ namespace GITVS
                     return "Word Document";
                 case ".png":
                     return "Picture";
+                case ".xls":
+                    return "Excel";
                 default:
                     return "";
             }
