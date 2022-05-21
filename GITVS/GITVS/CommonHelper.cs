@@ -26,6 +26,8 @@ namespace GITVS
                     return "pdf Document";
                 case ".docx":
                     return "Word Document";
+                case ".png":
+                    return "Picture";
                 default:
                     return "";
             }
