@@ -13,10 +13,8 @@ namespace GITVS
 
         }
 
-        public static int Add()
+        public static int Add(int num1,int num2)
         {
-            int num1 = 3;
-            int num2 = 5;
             return num1 + num2;
         }
 
