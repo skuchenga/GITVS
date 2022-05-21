@@ -8,6 +8,7 @@ namespace GITVS
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine($"Edited from github web");
+            Console.WriteLine(CommonHelper.GetBaseDirectory());
         }
         private static int GenerateRandom()
         {
