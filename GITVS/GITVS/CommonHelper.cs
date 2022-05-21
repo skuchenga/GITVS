@@ -18,7 +18,18 @@ namespace GITVS
             return num1 + num2;
         }
 
-        
+        public static string GetFileExtensionsName(string extension)
+        {
+            switch (extension.ToLower())
+            {
+                case ".pdf":
+                    return "pdf Document";
+                case ".docx":
+                    return "Word Document";
+                default:
+                    return "";
+            }
+        }
 
     }
 }
